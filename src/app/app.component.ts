@@ -15,9 +15,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.onPushService.getData().subscribe(data =>
-      console.info(`${JSON.stringify(data)}`)
-    );
   }
 
 }
